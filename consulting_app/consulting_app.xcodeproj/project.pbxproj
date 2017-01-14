@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B171AF1E2A2F9F00C20AC3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B171AE1E2A2F9F00C20AC3 /* ViewController2.swift */; };
 		04D566F21E2A181A00B78F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D566F11E2A181A00B78F04 /* AppDelegate.swift */; };
 		04D566F41E2A181A00B78F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D566F31E2A181A00B78F04 /* ViewController.swift */; };
 		04D566F71E2A181A00B78F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D566F51E2A181A00B78F04 /* Main.storyboard */; };
 		04D566F91E2A181A00B78F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D566F81E2A181A00B78F04 /* Assets.xcassets */; };
 		04D566FC1E2A181A00B78F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D566FA1E2A181A00B78F04 /* LaunchScreen.storyboard */; };
+		04D567071E2A1DF700B78F04 /* pw_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D567051E2A1DF700B78F04 /* pw_icon.png */; };
+		04D567081E2A1DF700B78F04 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D567061E2A1DF700B78F04 /* user_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B171AE1E2A2F9F00C20AC3 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController2.swift; sourceTree = "<group>"; usesTabs = 0; };
 		04D566EE1E2A181A00B78F04 /* consulting_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consulting_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D566F11E2A181A00B78F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D566F31E2A181A00B78F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		04D566F81E2A181A00B78F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D566FB1E2A181A00B78F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D566FD1E2A181A00B78F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D567051E2A1DF700B78F04 /* pw_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pw_icon.png; path = ../../../../../Desktop/icon/pw_icon.png; sourceTree = "<group>"; };
+		04D567061E2A1DF700B78F04 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = ../../../../../Desktop/icon/user_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		04D566F01E2A181A00B78F04 /* consulting_app */ = {
 			isa = PBXGroup;
 			children = (
+				04D567091E2A1EFD00B78F04 /* icon */,
 				04D566F11E2A181A00B78F04 /* AppDelegate.swift */,
 				04D566F31E2A181A00B78F04 /* ViewController.swift */,
 				04D566F51E2A181A00B78F04 /* Main.storyboard */,
 				04D566F81E2A181A00B78F04 /* Assets.xcassets */,
 				04D566FA1E2A181A00B78F04 /* LaunchScreen.storyboard */,
 				04D566FD1E2A181A00B78F04 /* Info.plist */,
+				04B171AE1E2A2F9F00C20AC3 /* ViewController2.swift */,
 			);
 			path = consulting_app;
+			sourceTree = "<group>";
+		};
+		04D567091E2A1EFD00B78F04 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				04D567051E2A1DF700B78F04 /* pw_icon.png */,
+				04D567061E2A1DF700B78F04 /* user_icon.png */,
+			);
+			name = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D566FC1E2A181A00B78F04 /* LaunchScreen.storyboard in Resources */,
+				04D567071E2A1DF700B78F04 /* pw_icon.png in Resources */,
 				04D566F91E2A181A00B78F04 /* Assets.xcassets in Resources */,
 				04D566F71E2A181A00B78F04 /* Main.storyboard in Resources */,
+				04D567081E2A1DF700B78F04 /* user_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,7 @@
 			files = (
 				04D566F41E2A181A00B78F04 /* ViewController.swift in Sources */,
 				04D566F21E2A181A00B78F04 /* AppDelegate.swift in Sources */,
+				04B171AF1E2A2F9F00C20AC3 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				04D567021E2A181A00B78F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

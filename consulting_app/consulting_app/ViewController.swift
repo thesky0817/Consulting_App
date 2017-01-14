@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,5 +23,16 @@ class ViewController: UIViewController {
     }
 
 
-}
+    @IBOutlet weak var input_id: UITextField! //id edit text
+    
+    
+    @IBOutlet weak var input_pw: UITextField! //pw edit text
+    
+    
+    @IBOutlet weak var login_button: UIButton! // login button
+    
+    
+    @IBOutlet weak var sign_up_button: UIButton! //sign up button
+    
+   }
 
